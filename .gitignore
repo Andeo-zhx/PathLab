@@ -1,0 +1,46 @@
+# Dependencies and generated build output
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/build/
+**/release/
+**/.gradle/
+**/DerivedData/
+**/Pods/
+**/.argos-build-env/
+**/.argos-smoke/
+**/.electron-builder-cache/
+**/.pip-cache-v110/
+**/coverage/
+**/verify-out/
+**/verify-downloads/
+**/artifacts/
+**/logs/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+**/*.p12
+**/*.pfx
+**/*.jks
+**/*.keystore
+**/*.mobileprovision
+**/*.pem
+**/*.p8
+**/*.key
+
+# User projects and distribution packages
+*.pathlab
+*.ipa
+*.apk
+*.exe
+
+# Operating system and IDE files
+.DS_Store
+Thumbs.db
+**/.idea/
+**/.vscode/*
+!**/.vscode/extensions.json
+**/*.xcuserstate
+*.log

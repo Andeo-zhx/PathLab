@@ -1,0 +1,44 @@
+{
+  "name": "pathlab-ios",
+  "private": true,
+  "version": "1.3.2",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "ios:add": "cap add ios --packagemanager SPM",
+    "ios:sync": "npm run build && cap sync ios"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/cli": "^8.0.0",
+    "@capacitor/ios": "^8.0.0",
+    "@tiptap/extension-placeholder": "^3.31.3",
+    "@tiptap/pm": "^3.31.3",
+    "@tiptap/react": "^3.31.3",
+    "@tiptap/starter-kit": "^3.31.3",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "dexie": "^4.4.6",
+    "immer": "^11.1.18",
+    "jszip": "^3.10.2",
+    "konva": "^10.7.0",
+    "lucide-react": "^1.48.0",
+    "oxlint": "^1.81.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-konva": "^19.3.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "zustand": "^5.0.15"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/filesystem": "^8.0.0",
+    "@capacitor/share": "^8.0.0"
+  }
+}
