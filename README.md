@@ -2,6 +2,10 @@
 
 PathLab 1.3.2 is a pathology image annotation workspace for Windows, iPad/iPhone, and Android tablets. It supports image viewing, annotation, observation notes, `.pathlab` project files, and high-resolution image export.
 
+## Demo
+
+[Watch the PathLab demo (MP4, 49 seconds)](docs/demo/formal.mp4)
+
 ## Projects
 
 - `apps/windows/PathLab-1.3.2` — Electron desktop application.
